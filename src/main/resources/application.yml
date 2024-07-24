@@ -1,0 +1,12 @@
+grandparent:
+  parent:
+    child: zeeshan ashraf
+    child2: "Arsalan Ashraf"  #both quote and unquote works fine for string
+    child3: application.properties file value is preferred over here in yml file
+
+zee:
+  region: ${AWS_REGION}  #gets value from env variable
+
+planets: mercury, venus, earth,   mars and jupiter
+
+HOME: System env is preferred over yml or properties file so this value will not be used because echo $HOME returns some value in mac & linux
